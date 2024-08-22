@@ -16,12 +16,8 @@ export const Hero = () => {
         </h2>
         <h3 className="text-3xl font-caption">Software developer</h3>
         <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet . <br />
-          <Code className="inline-flex items-center gap-1">
-            {" "}
-            <GithubIcon className="inline" size={16} /> github
-          </Code>{" "}
-          unde architecto saepe? Quisquam. <br /> currently working at{" "}
+          I'm a fullstack developer and this is my Portfolio <br />
+          currently working at{" "}
           <Link href="https://artec-int.com/" target="_blank">
             <Code className="inline-flex items-center gap-1">
               {" "}
@@ -35,7 +31,7 @@ export const Hero = () => {
               alt="france flag"
               style={{ width: 16, height: "auto" }}
             />{" "}
-            France, Marseille
+            France, Paris
           </Code>
         </p>
       </div>

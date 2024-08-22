@@ -1,19 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { Card } from "@/components/ui/card";
-import {
-  ArrowUpRightIcon,
-  ChefHatIcon,
-  LucideIcon,
-  NotebookPenIcon,
-  ShipIcon,
-  ShirtIcon,
-} from "lucide-react";
+import { ChefHatIcon, Dice6Icon, ShipIcon, ShirtIcon } from "lucide-react";
 
+import { ContactCard } from "./ContactCard";
 import { Section } from "./Section";
 import { SideProjects, SideProjectsProps } from "./SideProjects";
 import { Work, WorkProps } from "./Work";
-import { ContactCard } from "./ContactCard";
 
 export const Status = () => {
   return (
@@ -28,7 +21,7 @@ export const Status = () => {
                 Logo={project.Logo}
                 title={project.title}
                 description={project.description}
-                url="/"
+                url={project.url}
               />
             ))}
           </div>
@@ -69,25 +62,25 @@ const SIDE_PROJECTS: SideProjectsProps[] = [
     Logo: ChefHatIcon,
     title: "Cocotons",
     description: "A platform to buy and sell cottons",
-    url: "/",
+    url: "https://github.com/lucieplgnt/cocotons",
   },
   {
-    Logo: NotebookPenIcon,
-    title: "Power Notes",
-    description: "A platform to take notes",
-    url: "/",
+    Logo: Dice6Icon,
+    title: "FlashCard",
+    description: "A flashcard game for memorization",
+    url: "https://github.com/Jaberbenz/flashcard-front",
   },
   {
     Logo: ShipIcon,
     title: "YachtHaven",
     description: "A platform to rent yachts",
-    url: "/",
+    url: "https://github.com/Jaberbenz/yachthaven",
   },
   {
     Logo: ShirtIcon,
     title: "Just New Findings",
     description: "A platform to share new findings",
-    url: "/",
+    url: "https://github.com/nawel-SARROUB/E-Shopping",
   },
 ];
 
