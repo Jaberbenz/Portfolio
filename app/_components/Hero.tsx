@@ -16,7 +16,7 @@ export const Hero = () => {
         </h2>
         <h3 className="text-3xl font-caption">Software developer</h3>
         <p className="text-base">
-          I'm a fullstack developer and this is my Portfolio <br />
+          I am a fullstack developer and this is my Portfolio <br />
           currently working at{" "}
           <Link href="https://artec-int.com/" target="_blank">
             <Code className="inline-flex items-center gap-1">
